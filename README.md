@@ -16,25 +16,24 @@ The React Compiler is not enabled on this template because of its impact on dev 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 
-🚀 JavaScript Event Loop Visualizer
+# 🚀 JavaScript Event Loop Visualizer
 
 An interactive visual tool to understand how the JavaScript Event Loop works.
 
 This project visually demonstrates:
 
-Call Stack (Synchronous execution)
+- Call Stack (Synchronous execution)
+- Web APIs (Async operations)
+- Microtask Queue (Promises)
+- Callback Queue (Macrotasks)
+- Event Loop behavior & priority handling
 
-Web APIs (Async operations)
+---
 
-Microtask Queue (Promises)
-
-Callback Queue (Macrotasks)
-
-Event Loop behavior & priority handling
-
-📸 Preview
+## 📸 Preview
 
 Visual representation of how JavaScript executes synchronous and asynchronous code.
+
 
 -----------------------------------
 |         CODE EDITOR             |
