@@ -44,51 +44,46 @@ Visual representation of how JavaScript executes synchronous and asynchronous co
 |  Microtask  | Callback Queue    |
 -----------------------------------
 
-🧠 What This Visualizer Explains
+
+## 🧠 What This Visualizer Explains
 
 JavaScript is single-threaded, but it can handle asynchronous operations using:
 
-Call Stack
+- Call Stack
+- Web APIs (Browser APIs)
+- Microtask Queue
+- Callback Queue
+- Event Loop
 
-Web APIs (Browser APIs)
+This tool helps you **see the execution order visually**.
 
-Microtask Queue
+---
 
-Callback Queue
+## ✨ Features
 
-Event Loop
+- 🔴 Visual Call Stack execution
+- 🟠 Web API simulation
+- 🟣 Microtask Queue (Promise priority)
+- 🔵 Macrotask Queue (setTimeout)
+- 🎚 Speed control slider
+- 📝 Console output logs
+- 🧩 Step counter
+- 🎨 Modern UI (Tailwind CSS)
 
-This tool helps you see the execution order visually.
+---
 
-✨ Features
+## 🛠 Tech Stack
 
-🔴 Visual Call Stack execution
+- React
+- Custom Hook (`useEventLoop`)
+- Tailwind CSS
+- JavaScript
 
-🟠 Web API simulation
+---
 
-🟣 Microtask Queue (Promise priority)
+## 📂 Project Structure
 
-🔵 Macrotask Queue (setTimeout)
 
-🎚 Speed control slider
-
-📝 Console output logs
-
-🧩 Step counter
-
-🎨 Modern UI (Tailwind CSS)
-
-🛠 Tech Stack
-
-React
-
-Custom Hook (useEventLoop)
-
-Tailwind CSS
-
-JavaScript
-
-📂 Project Structure
 src/
  ├── components/
  │     ├── CodeEditor.jsx
