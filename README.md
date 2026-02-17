@@ -33,7 +33,7 @@ This project visually demonstrates:
 ## 📸 Preview
 
 Visual representation of how JavaScript executes synchronous and asynchronous code.
-
+```
 
 -----------------------------------
 |         CODE EDITOR             |
@@ -43,7 +43,7 @@ Visual representation of how JavaScript executes synchronous and asynchronous co
 |  Call Stack | Web APIs          |
 |  Microtask  | Callback Queue    |
 -----------------------------------
-
+```
 
 ## 🧠 What This Visualizer Explains
 
@@ -83,7 +83,7 @@ This tool helps you **see the execution order visually**.
 
 ## 📂 Project Structure
 
-
+```
 src/
  ├── components/
  │     ├── CodeEditor.jsx
@@ -95,8 +95,9 @@ src/
  │     └── useEventLoop.js
  │
  └── App.jsx
+```
 
-▶️ How It Works
+## ▶️ How It Works
 
 User writes JavaScript code in the editor.
 
@@ -120,7 +121,7 @@ Microtasks are executed before macrotasks.
 
 Output logs appear step by step.
 
-🧪 Example Input
+# 🧪 Example Input
 console.log("Start");
 
 setTimeout(() => {
@@ -139,7 +140,7 @@ End
 Promise
 Timeout
 
-🎚 Speed Control
+## 🎚 Speed Control
 
 You can control execution speed using the slider:
 
@@ -151,7 +152,7 @@ You can control execution speed using the slider:
 
 3x → Very Slow
 
-🚀 Getting Started
+## 🚀 Getting Started
 1️⃣ Clone the repository
 git clone https://github.com/your-username/event-loop-visualizer.git
 
@@ -161,7 +162,7 @@ npm install
 3️⃣ Start development server
 npm run dev
 
-📚 Learning Purpose
+## 📚 Learning Purpose
 
 This project is built to:
 
@@ -173,7 +174,7 @@ Demonstrate async behavior visually
 
 Improve conceptual clarity of Event Loop
 
-🎯 Future Improvements
+## 🎯 Future Improvements
 
 ⏸ Proper pause/resume control
 
@@ -185,7 +186,7 @@ Improve conceptual clarity of Event Loop
 
 🌐 Node.js event loop mode
 
-🤝 Contributing
+## 🤝 Contributing
 
 Pull requests are welcome.
 For major changes, open an issue first to discuss what you'd like to change.
@@ -194,7 +195,7 @@ For major changes, open an issue first to discuss what you'd like to change.
 
 MIT License
 
-💡 Author
+## 💡 Author
 
 Built with ❤️ to deeply understand JavaScript internals.
 
